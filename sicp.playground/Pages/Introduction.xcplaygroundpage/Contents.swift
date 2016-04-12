@@ -1,19 +1,41 @@
+//: [Previous](@previous)
+
 /*:
- # SICP in Swift
  
- The [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book.html) is widely regarded as essential reading for serious programmers. Unfortunately, the programming language used in SICP (viz., scheme) isn't one that's in serious use anywhere. Moreover, the tools avilable for working with scheme are quite limited.
+ # Introduction:
  
- This set of playgrounds is an attempt to provide an update for the tooling and language students of SICP need to use in order to grok SICP's concepts. SICP, after all, is not about a particular programming language:
+ * callout(Exerpt): The acts of the mind, wherein it exerts its power over
+ simple ideas, are chiefly these three: 1. Combining
+ several simple ideas into one compound one, and thus all
+ complex ideas are made. 2. The second is bringing two
+ ideas, whether simple or complex, together, and setting
+ them by one another so as to take a view of them at once,
+ without uniting them into one, by which it gets all its
+ ideas of relations. 3. The third is separating them from all
+ other ideas that accompany them in their real existence:
+ this is called abstraction, and thus all its general ideas are
+ made.
  
- >...we believe that the essential material to be addressed by a subject at this level is not the syntax of particular programming-language constructs, nor clever algorithms for computing particular functions efficiently, nor even the mathematical analysis of algorithms and the foundations of computing, but rather the techniques used to control the intellectual complexity of large software systems.
- >
- > \- *Abelson et. al.*, pg. 12
+ \- John Lock, *An Essay Concerning Human Understanding*
+ 
+ Computational processes are abstract beings that inhabit computers. We can direct those beings to manipulate data by writing computer programs. Thus, computer programmers are, in a sense, like magicians. They conjure up spirits (processes) using incantations (computer programs).
+ 
+ Because programs tend to be relatively contained, programmers don't need to fear the spirits they conjure as much as true magicians fear theirs. However, programming can still be scary. The writer of an air traffic controller program, for example, can cause plane crashes if he's not careful.
+ 
+ Fortunately, programming languages do more than direct processes. They also give us a way to organize our ideas about the processes we are attempting to direct with the language. Every powerful language has three ways of doing this:
+ 
+ * primitive expressions: the simplest things the language is concerned with
+ * ways to build complex elements from simpler ones
+ * ways to name and maniuplate complex elements as units
+ 
+ Let's call these three tools the "methanisms of organization." These mechanisms of organization can be applied to the two aforementioned elements with which our processes are concerned: procedures and data. (We'll see later that these the distinction between these two elements is tenuous.)
+ 
+ In the first chapter, we'll examine how the mechanisms of organization can be applied to procedures.
  
  
- This set of playgrounds is also an attempt to summarize SICP. This goal is more self-serving than the previous one, as it is unlikely that my summary will retain all of insight and clarity of the original authors of the text. I hope, however, my attempt to summarize the sections of SICP will help solidify its concepts in my own mind, and if you happen to find the summary useful, then that's great. In my summaries, I have tried to include links to the relevant sections of the original text in case you find my summarizing unhelpful.
+* callout(From): pgs. 16 - 19
  
- 
- */
+ **/
 
 
 //: [Next](@next)

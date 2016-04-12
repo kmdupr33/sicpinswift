@@ -1,9 +1,6 @@
 //: [Previous](@previous)
 
 /*:
- # 1.1
- 
- 
  
  */
 
