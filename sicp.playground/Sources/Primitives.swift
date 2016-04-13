@@ -1,5 +1,6 @@
 import Foundation
 
+// Add
 
 public func add(x:Double...) -> Double {
     return x.reduce(0, combine: { (acc, x) -> Double in
@@ -13,17 +14,19 @@ public func add(x:Int...) -> Int {
     })
 }
 
-public func minus(x: Int, y: Int) -> Int {
+// Minus
+
+public func minus(x: Int, _ y: Int) -> Int {
     return x - y    
 }
 
-public func divide(x: Int, y: Int) -> Int {
+// Divide
+
+public func divide(x: Int, _ y: Int) -> Int {
     return x / y
 }
 
-public func equals(x: Int, y: Int) -> Bool {
-    return x == y
-}
+// Mult
 
 public func mult(x: Double...) -> Double {
     return x.reduce(1, combine: { (acc, x) -> Double in
@@ -37,6 +40,38 @@ public func mult(x: Int...) -> Int {
     })
 }
 
-public func square(x: Int) -> Int {
-    return mult(x, x)
+// Predicates
+
+public func equals(x: Int, _ y: Int) -> Bool {
+    return x == y
+}
+
+public func lessThan(x: Int, _ y: Int) -> Bool {
+    return x < y
+}
+
+public func greaterThan(x: Int, _ y: Int) -> Bool {
+    return x > y
+}
+
+public func and(bools: Bool...) -> Bool {
+    for bool in bools {
+        if bool == false {
+            return false
+        }
+    }
+    return true
+}
+
+public func or(bools: Bool...) -> Bool {
+    for bool in bools {
+        if bool == true {
+            return true
+        }
+    }
+    return false
+}
+
+public func not(bool: Bool) -> Bool {
+    return !bool
 }
