@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 
 /*:
- # Compound Procedures
+ # 1.1.4: Compound Procedures
  
  Recall that the mechanisms of organization for any programming language are:
  

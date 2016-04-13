@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 
 /*:
- # Evaluating Invocations
+ # 1.1.3: Evaluating Invocations
  
  This chapter is partially about the issues that arise when we start to think procedurally. We can start to get at these issues by considering the fact that a playground evaluates a invocation by following a procedure:
  
