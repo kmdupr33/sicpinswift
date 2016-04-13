@@ -19,7 +19,7 @@ size
  */
 
     let pi = 3.14159
-    let radius = 10
+    let radius = 10.0
     let circumference = mult(2, pi, radius)
 
 /*:
