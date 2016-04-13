@@ -4,7 +4,7 @@
  
  # Introduction:
  
- * callout(Exerpt): The acts of the mind, wherein it exerts its power over
+ * callout( ): The acts of the mind, wherein it exerts its power over
  simple ideas, are chiefly these three: 1. Combining
  several simple ideas into one compound one, and thus all
  complex ideas are made. 2. The second is bringing two
