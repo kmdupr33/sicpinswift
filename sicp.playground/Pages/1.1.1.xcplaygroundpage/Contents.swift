@@ -27,8 +27,6 @@
 
     add(1, add(1, 1))
 
-//: * callout(From): pgs. 19
-
 
 
 //: [Next](@next)

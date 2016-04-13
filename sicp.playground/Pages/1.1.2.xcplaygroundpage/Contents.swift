@@ -34,6 +34,4 @@
  Once quick thing to note: there has to be something that's keeping track of the association between the name and the value. Let's call that thing the "environment."
  */
 
-//: * callout(From): pgs. 21
-
 //: [Next](@next)

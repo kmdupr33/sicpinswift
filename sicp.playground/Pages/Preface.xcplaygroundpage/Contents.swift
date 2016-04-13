@@ -13,7 +13,7 @@
  
  
  
- This set of playgrounds is also an attempt to summarize SICP. This goal is more self-serving than the previous one, as it is unlikely that my summary will retain all of insight and clarity of the the original text. I hope, however, my attempt to summarize the sections of SICP will help solidify its concepts in my own mind, and if you happen to find the summary useful, then that's great. In my summaries, I have tried to include references to the relevant sections of the original text in case you find my summarizing unhelpful. The page numbers mentioned in these references are the pages of [the pdf version of SICP](http://web.mit.edu/alexmv/6.037/sicp.pdf).
+ This set of playgrounds is also an attempt to summarize SICP. This goal is more self-serving than the previous one, as it is unlikely that my summary will retain all of insight and clarity of the the original text. I hope, however, my attempt to summarize the sections of SICP will help solidify its concepts in my own mind, and if you happen to find the summary useful, then that's great. In the source from which my summary is derived is less than obvious, I include references to the relevant sections of the original text in case you find my summarizing unhelpful. The page numbers mentioned in these references are the pages of [the pdf version of SICP](http://web.mit.edu/alexmv/6.037/sicp.pdf).
  
  
  */

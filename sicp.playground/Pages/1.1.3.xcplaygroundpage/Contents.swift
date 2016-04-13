@@ -54,6 +54,4 @@
  
  */
 
-//: * callout(From): pgs. 21-23
-
 //: [Next](@next)
