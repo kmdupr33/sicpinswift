@@ -19,9 +19,9 @@
 
 /*:
  
- The `add` sign in the above string of characters is an "operand;" it operates on the operators, 1 and 41 that are enclosed between two parentheses. `add`, the operand, represents a *primitive* procedure. The `add` procedure adds `1` and `41` to produce the result you see on the right. Let's call a combination of operators and operands a "procedural application." `1 + 41` above is an example of a *primitive* procedural application.
+ The `add` sign in the above string of characters is an "operand;" it operates on the operators, 1 and 41 that are enclosed between two parentheses. `add`, the operand, represents a *primitive* procedure. The `add` procedure adds `1` and `41` to produce the result you see on the right. Let's call a combination of operators and operands an "invocation." `1 + 41` above is an example of a *primitive* invocation.
  
- Procedural applications can be combined. That is, a procedural application can itself be an operator of a procedural application. For example:
+ Invocations can be combined. That is, an invocation can itself be an operator of a invocation. For example:
  */
 
     add(1, add(1, 1))

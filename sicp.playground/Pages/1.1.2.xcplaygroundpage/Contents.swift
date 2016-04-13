@@ -31,7 +31,7 @@ mult(2, 3.14159, mult(10, 10))
 /*:
  Using let allows us to express the intent of the program more clearly and it saves us from having to remember the details about the value of pie and the value of the radius of the circle. The importance of naming values becomes even more important as the programs we write become more complex.
  
- Once quick thing to note: there has to be something that's keeping track of the association between the name and the value. Let's call that thing the environment.
+ Once quick thing to note: there has to be something that's keeping track of the association between the name and the value. Let's call that thing the "environment."
  */
 
 //: * callout(From): pgs. 21
