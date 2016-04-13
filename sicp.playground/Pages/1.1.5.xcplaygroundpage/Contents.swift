@@ -74,8 +74,6 @@
  For a certain set of invocations, applicative and normal order produce the same results. However, in an upcoming exercise, we'll start to see some exceptions to this.
  
 */
-
-
-
+//: * callout(From): pgs. 25-26
 
 //: [Next](@next)

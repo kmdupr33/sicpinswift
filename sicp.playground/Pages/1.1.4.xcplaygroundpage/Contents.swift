@@ -45,5 +45,6 @@
     let sumOfSquares = { (x, y) in
         add(square(x), square(y))
     }
+//: * callout(From): pgs. 23-24
 
 //: [Next](@next)
