@@ -15,7 +15,7 @@
  
  */
 
-    add(1, to: 41)
+    add(1, 41)
 
 /*:
  
@@ -24,7 +24,7 @@
  Procedural applications can be combined. That is, a procedural application can itself be an operator of a procedural application. For example:
  */
 
-    add(1, to:add(1, to: 1))
+    add(1, add(1, 1))
 
 //: * callout(From): pgs. 19
 
